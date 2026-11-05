@@ -1,151 +1,74 @@
-# Unity 3D Endless Runner Game
+# Galaxy Sprint
 
-A beginner-to-intermediate Unity portfolio project built with clean C# scripts, third-person endless runner movement, procedural spawning, object pooling, scoring, UI menus, audio hooks, animation triggers, and a stylized low-poly environment workflow.
+A 3D space-themed endless runner built in Unity 6. A runner sprints down a glowing neon track through deep space, dodging obstacles, sliding under laser gates and collecting energy crystals while the speed keeps rising.
 
-This project is designed for a Game Developer internship portfolio and resume showcase.
+Galaxy Sprint is my theme module of the capstone project **SPEEDVERSE** (B.Tech, School of Computer Science and Artificial Intelligence, SR University, 2025-2026).
 
-## Features
+## Gameplay
 
-- Third-person endless runner gameplay
-- Automatic forward running
-- 3-lane movement using `A/D` or arrow keys
-- Jump using `Spacebar`
-- Slide using `Left Ctrl` or `Right Ctrl`
-- Gradually increasing game speed
-- Procedural road generation
-- Random obstacle spawning
-- Multiple obstacle types: barrier, box, wall
-- Random coin spawning and coin counter
-- Distance score and coin score bonus
-- High score saving with `PlayerPrefs`
-- Main menu, pause menu, game over screen, restart, and quit buttons
-- Object pooling for roads, coins, obstacles, trees, and rocks
-- Audio hooks for background music, coin, jump, and game over sounds
-- Animator trigger support for run, jump, slide, and death animations
-- Unity Editor scene builder for fast setup
-
-## Quick Start
-
-1. Open this folder in Unity Hub as a Unity project.
-2. Use Unity 2022 LTS or newer.
-3. Let Unity import packages and compile scripts.
-4. If Unity asks for TextMeshPro essentials, import them.
-5. In the Unity menu, click `Tools > Endless Runner > Build Complete Demo Scene`.
-6. Open `Assets/Scenes/MainScene.unity`.
-7. Press Play.
-
-The builder creates the playable demo scene, materials, low-poly prefabs, UI panels, object pool entries, tags, player, camera, lighting, and manager objects.
+- The character runs forward automatically on a three-lane track.
+- Switch lanes, jump over low barriers, and slide under laser gates.
+- Collect cyan crystals to raise your score. Distance also adds to the score.
+- Speed increases as the run continues. Touching any obstacle ends the run.
+- Main menu, HUD, pause menu, game over screen and high score are included.
 
 ## Controls
 
-| Action | Key |
-| --- | --- |
-| Move Left | `A` or `Left Arrow` |
-| Move Right | `D` or `Right Arrow` |
-| Jump | `Spacebar` |
-| Slide | `Left Ctrl` or `Right Ctrl` |
-| Pause / Resume | `Escape` |
+| Action | Keys |
+|---|---|
+| Move left / right | `A` / `D` or Left / Right arrow |
+| Jump | `Space` |
+| Slide | `Left Ctrl`, `Right Ctrl`, `Down Arrow` or `S` |
 
-## Folder Structure
+## What I built on top of the base project
 
-```text
-Unity-3D-Endless-Runner-Game/
-|-- Assets/
-|   |-- Art/
-|   |   |-- Marketing/
-|   |   `-- Materials/
-|   |-- Audio/
-|   |-- Editor/
-|   |   `-- EndlessRunnerSceneBuilder.cs
-|   |-- Prefabs/
-|   |   `-- PREFAB_SETUP.md
-|   |-- Scenes/
-|   |   `-- SCENE_HIERARCHY.md
-|   `-- Scripts/
-|       |-- Camera/
-|       |   `-- FollowCamera.cs
-|       |-- Core/
-|       |   `-- GameManager.cs
-|       |-- Player/
-|       |   `-- PlayerController.cs
-|       |-- Systems/
-|       |   |-- AudioManager.cs
-|       |   |-- CoinSystem.cs
-|       |   |-- ObjectPool.cs
-|       |   |-- Obstacle.cs
-|       |   |-- PooledObject.cs
-|       |   `-- SpawnManager.cs
-|       `-- UI/
-|           `-- UIManager.cs
-|-- Packages/
-|   `-- manifest.json
-|-- ProjectSettings/
-|   `-- ProjectVersion.txt
-|-- .gitignore
-`-- README.md
-```
+- **Space environment:** nebula skybox (SpaceSkies Free), dark space lighting and fog.
+- **Neon track:** dark metal road with glowing cyan lane lines (emissive materials).
+- **Space objects:** glowing crystal coins, violet space crates, red barriers, and floating planets that stay in the distance (spheres parented to the camera).
+- **Laser gate:** a new slide-under obstacle (two posts and a glowing beam), added to the object pool and the spawner.
+- **Character:** a textured humanoid from Mixamo with run and crouched-run (slide) animations, driven by Animator triggers.
+- **UI:** "GALAXY SPRINT" title and a neon colour scheme.
 
-## Core Scripts
+## How it works
 
-`PlayerController.cs` handles lane switching, auto-running, jumping, sliding, and obstacle collision.
+| Script | Role |
+|---|---|
+| `PlayerController` | Lane movement, jump, slide (the collider shrinks for 0.75 s) and animator control |
+| `SpawnManager` | Generates road tiles, obstacles, coin lines and side decorations ahead of the player |
+| `ObjectPool` | Reuses objects instead of creating and destroying them, so the game stays smooth |
+| `Obstacle` | Ends the game when the player touches an object tagged `Obstacle` |
+| `GameManager` | Game state, speed increase, score and game over |
+| `UIManager` | Menus, HUD, pause and restart |
+| `EndlessRunnerSceneBuilder` (Editor) | Builds the base scene from the menu `Tools > Endless Runner > Build Complete Demo Scene` |
 
-`GameManager.cs` controls game state, score, speed progression, high score saving, pause, restart, quit, and game over.
+## Run the project
 
-`UIManager.cs` manages the main menu, HUD, pause menu, game over screen, score, high score, and coin display.
+1. Install **Unity 6** (developed with `6000.5.9f1`).
+2. Clone or download this repository.
+3. In Unity Hub choose **Add > Add project from disk** and select the project folder (the one containing `Assets`, `Packages` and `ProjectSettings`).
+4. Open the project. The first launch takes a few minutes while Unity rebuilds the `Library` folder.
+5. Open `Assets/Scenes/MainScene.unity` and press **Play**.
 
-`SpawnManager.cs` procedurally spawns road tiles, obstacles, coins, trees, and rocks ahead of the player.
+> Unity Hub may show a yellow warning that the Built-In Render Pipeline is deprecated. It is only a notice and does not affect the game.
+>
+> Do not run `Tools > Endless Runner > Build Complete Demo Scene` again after opening `MainScene`. It rebuilds the scene from scratch and removes the space theme.
 
-`ObjectPool.cs` reuses objects instead of repeatedly instantiating and destroying them during gameplay.
+## Tools used
 
-`CoinSystem.cs` handles coin rotation, collection, scoring, sound, and returning coins to the pool.
+Unity 6, C#, Visual Studio, Mixamo, Unity Asset Store, GitHub.
 
-`AudioManager.cs` plays background music and game sound effects when clips are assigned.
+## Credits
 
-`FollowCamera.cs` provides a smooth third-person chase camera.
+- Gameplay base: open-source **Unity 3D Endless Runner Game** (lane movement, spawning, object pooling, scoring, UI).
+- Skybox: **SpaceSkies Free** by Pulsar Bytes (Unity Asset Store).
+- Character and animations: **Mixamo** (Adobe).
+- Space theme, laser gate, planets, materials, character setup and animation hooks: **Rishitha Gangidi**.
 
-`EndlessRunnerSceneBuilder.cs` builds a complete playable demo scene from the Unity editor menu.
+## Author
 
-## Audio Setup
+Rishitha Gangidi (2303A52149)
+Guide: Dr. Vijaya Chandra Jadala, Assistant Professor, School of CS&AI, SR University
 
-The game runs without audio clips, but the audio hooks are ready.
+## Future scope
 
-To add sound:
-
-1. Place clips in `Assets/Audio`.
-2. Open `MainScene`.
-3. Select `Managers/AudioManager`.
-4. Assign background music, coin, jump, and game over clips.
-
-## Animation Setup
-
-The game works without a character animator, but it supports these animator parameters:
-
-| Parameter | Type | Used For |
-| --- | --- | --- |
-| `IsRunning` | Bool | Running animation |
-| `Jump` | Trigger | Jump animation |
-| `Slide` | Trigger | Slide animation |
-| `Death` | Trigger | Death animation |
-
-Assign an Animator to the player when you add a custom character model.
-
-## GitHub Upload
-
-Upload the full `Unity-3D-Endless-Runner-Game` folder to a GitHub repository.
-
-Suggested repository name:
-
-```text
-Unity-3D-Endless-Runner-Game
-```
-
-Suggested portfolio link:
-
-```text
-https://github.com/shivamkr67/Unity-3D-Endless-Runner-Game
-```
-
-## Resume Line
-
-**3D Endless Runner Game | Unity 3D, C#, Blender**  
-Built a third-person endless runner with 3-lane movement, jumping, sliding, procedural obstacle and coin spawning, object pooling, UI menus, audio events, high score saving, and stylized low-poly environment assets.
+Android build with touch controls, power-ups (shield, speed boost), bloom glow, jump animation, sound effects and an online leaderboard.
