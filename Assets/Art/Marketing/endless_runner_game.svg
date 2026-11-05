@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="3D Endless Runner Game portfolio cover">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10172a"/>
+      <stop offset="55%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <polygon points="0,520 210,345 380,520" fill="#0f766e" opacity="0.9"/>
+  <polygon points="140,535 360,300 610,535" fill="#115e59" opacity="0.8"/>
+  <polygon points="750,535 1015,285 1280,535" fill="#0f766e" opacity="0.85"/>
+  <polygon points="520,720 760,720 672,210 608,210" fill="url(#road)" filter="url(#shadow)"/>
+  <polygon points="600,720 624,720 632,210 620,210" fill="#f8fafc" opacity="0.8"/>
+  <polygon points="656,720 680,720 660,210 648,210" fill="#f8fafc" opacity="0.8"/>
+  <g opacity="0.9">
+    <circle cx="565" cy="470" r="22" fill="#facc15"/>
+    <circle cx="714" cy="405" r="17" fill="#facc15"/>
+    <circle cx="602" cy="338" r="13" fill="#facc15"/>
+    <circle cx="675" cy="300" r="11" fill="#facc15"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="705" y="505" width="78" height="70" rx="8" fill="#ef4444"/>
+    <rect x="510" y="385" width="68" height="50" rx="7" fill="#f97316"/>
+    <rect x="655" y="250" width="50" height="78" rx="6" fill="#dc2626"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="640" cy="510" r="38" fill="#38bdf8"/>
+    <rect x="615" y="545" width="50" height="85" rx="22" fill="#22c55e"/>
+    <rect x="583" y="612" width="34" height="70" rx="14" fill="#0f172a"/>
+    <rect x="663" y="612" width="34" height="70" rx="14" fill="#0f172a"/>
+  </g>
+  <g opacity="0.95">
+    <g transform="translate(155 480)">
+      <rect x="-8" y="35" width="16" height="64" fill="#854d0e"/>
+      <polygon points="0,0 -48,48 48,48" fill="#22c55e"/>
+      <polygon points="0,-34 -36,24 36,24" fill="#16a34a"/>
+    </g>
+    <g transform="translate(1045 455)">
+      <rect x="-8" y="35" width="16" height="72" fill="#854d0e"/>
+      <polygon points="0,0 -56,52 56,52" fill="#22c55e"/>
+      <polygon points="0,-42 -42,24 42,24" fill="#16a34a"/>
+    </g>
+  </g>
+  <rect x="58" y="54" width="480" height="132" rx="24" fill="#020617" opacity="0.72"/>
+  <text x="90" y="112" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#ffffff">3D Endless Runner</text>
+  <text x="92" y="158" font-family="Arial, sans-serif" font-size="24" fill="#a7f3d0">Unity 3D | C# | Object Pooling</text>
+  <rect x="58" y="612" width="390" height="54" rx="18" fill="#020617" opacity="0.72"/>
+  <text x="90" y="647" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#facc15">Coins | Obstacles | Infinite Road</text>
+</svg>

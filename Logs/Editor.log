@@ -1,0 +1,1161 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rishi" at "2026-11-05T13:45:32.410748Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16095 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-05T13:45:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-projectpath
+C:\Game Drive\Galaxy_Sprint_main
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-rishi
+-hubSessionId
+6f51d94d-87a8-4228-898d-724f6473773b
+-accessToken
+DhnujSfujjk63thHnJFS6ao8xGxa6OEAI61fpZEwPNI00cf
+Successfully changed project path to: C:\Game Drive\Galaxy_Sprint_main
+C:/Game Drive/Galaxy_Sprint_main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [14548]  Target information:
+
+Player connection [14548]  * "[IP] 192.168.29.206 [Port] 55504 [Flags] 2 [Guid] 2784626153 [EditorId] 2784626153 [Version] 1048832 [Id] WindowsEditor(7,RishithaReddy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-22016" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-rishi"
+[Licensing::IpcConnector] LicenseClient-rishi channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-rishi-6000.5.9 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 23080)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-rishi-6000.5.9, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rishi-6000.5.9" at "2026-11-05T13:45:39.3866989Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23080, path: "C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              79b02429902d48ea98bb03492eadd539
+  Correlation Id:          d5fd5c48b144c5b7ceace3d0a99fbdeb
+  External correlation Id: 5941065850380151653
+  Machine Id:              O7rb2u0hBWkeuf3CHP3O5nPn+Xo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rishi-6000.5.9" (connect: 4.37s, validation: 0.21s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rishi-6000.5.9-notifications" at "2026-11-05T13:45:39.6071517Z"
+[Licensing::Module] Connected to LicensingClient (PId: 23080, launch time: 0.03, total connection time: 4.59s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token DhnujSfujj...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469981510698-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 7.24s
+[Licensing::Module] Licensing is initialized (took 5.05s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Default GameObject Tag: Player already registered
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Drive/Galaxy_Sprint_main/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     8047 MB
+    Driver:   32.0.101.6790
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.080035 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.320 seconds
+Domain Reload Profiling: 7312ms
+	BeginReloadAssembly (420ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (349ms)
+	initialDomainReloadingComplete (1499ms)
+	LoadAllAssembliesAndSetupDomain (2715ms)
+		LoadAssemblies (414ms)
+		AnalyzeDomain (2620ms)
+			TypeCache.Refresh (2618ms)
+				TypeCache.ScanAssembly (1991ms)
+	FinalizeReload (2322ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (2011ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 38 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Game Drive\Galaxy_Sprint_main\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Game Drive\Galaxy_Sprint_main
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 64.2897ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Game Drive/Galaxy_Sprint_main
+ExitCode: 0 Duration: 0s346ms
+*** Tundra build success (0.18 seconds), 0 items updated, 240 evaluated
+AssetDatabase: script compilation time: 1.719650s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.064 seconds
+Domain Reload Profiling: 2227ms
+	BeginReloadAssembly (572ms)
+		DisableScriptedObjects (71ms)
+		CreateAndSetChildDomain (196ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (353ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (16ms)
+			BuildScriptInfoCaches (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1067ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Starting new worker id: 0 with log in C:/Game Drive/Galaxy_Sprint_main/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=ce2b4407272531949a1d01df36191aef): Total: 6.734 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3600 ms
+		Asset DB Callback time: managed=85 ms, native=62 ms
+		Scripting: domain reloads=1, domain reload time=1239 ms, compile time=1723 ms, other=22 ms
+		Project Asset Count: scripts=251, non-scripts=417
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 67.757ms
+	ApplyChangesToAssetFolders: 0.696ms
+	Scan: 112.642ms
+	Collect global state as custom dependencies: 19.379ms
+	CategorizeScriptCompilationAssets: 1.350ms
+	ProcessAssetsWithTransientArtifactChanges: 19.616ms
+	CategorizeAssets: 9.169ms
+	CompileScripts: 1723.301ms
+	ImportOutOfDateAssets: 1090.951ms (1070.369ms without children)
+		UnloadImportedAssets: 0.309ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.290ms
+		ImportSchedulerStart: 19.963ms
+	PostProcessAllAssets: 85.649ms
+		MonoPostProcessAllAssets: 85.562ms
+			SyncVS.PostprocessSyncProject 48.576ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 15.826ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.589ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.372ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.614ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.493ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.312ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.146ms
+	UnloadStreamsBegin: 3.472ms
+	GenerateScriptTypeHashes: 2.262ms
+	GenerateScriptTypeSerializationHashes: 5.598ms
+	Untracked: 3586.894ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Scanning for USB devices : 4.080ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Galaxy_Sprint_main
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/MainScene.unity'
+	Deserialize:            198.977 ms
+	Integration:            231.713 ms
+	Integration of assets:  7.521 ms
+	Thread Wait Time:       -0.034 ms
+	Total Operation Time:   438.177 ms
+Unloading 484 unused Assets / (0.6 MB). Loaded Objects now: 1867.
+Memory consumption went from 224.5 MB to 223.8 MB.
+Total: 12.166100 ms (FindLiveObjects: 0.223200 ms CreateObjectMapping: 0.149400 ms MarkObjects: 8.576700 ms  DeleteObjects: 3.011900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Game Drive\Galaxy_Sprint_main\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/rishi/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 47.884 seconds
+	Project init time: 				45.878 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		5.246 seconds
+		Asset Database init time: 		0.866 seconds
+		Global illumination init time: 	0.015 seconds
+		Assemblies load time: 			28.253 seconds
+		Unity extensions init time: 	0.006 seconds
+		Asset Database refresh time: 	6.735 seconds
+	Scene opening time: 			1.784 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793886380274,"processId":22016,"projectLoad":47.884278099999999,"projectInit":45.8784688,"templateInit":0.0,"packageManagerInit":5.2456627,"assetDatabaseInit":0.866145,"globalIlluminationInit":0.0148144,"assembliesLoad":28.2531578,"unityExtensionsInit":0.0061652,"assetDatabaseRefresh":6.7346613,"sceneOpening":1.7839324}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793886380275,"processId":22016,"editorVersion":"6000.5.9f1 (b57deb96f08d)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Asset Pipeline Refresh (id=12eef746bb32e6e4db33aaf1c7d747e5): Total: 0.030 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=02f66024f176e9644a7992d380ac3135): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Created GICache directory at C:/Users/rishi/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.049s, timestamps: [49.568 - 49.617]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "DhnujSfu"... (expires: 2026-11-05T15:44:29Z)
+UPID Received '01903639-3fd9-4409-81be-887b76d6508a'.
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=6e551db7f8b1a0447a0bd55ef831dd46): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: c3055324a727daf46a70dc4aa3fd2346 - Path: Assets/Art/Materials/Space_Stars.mat' with importer (NativeFormatImporter)
+Imported 'GUID: c3055324a727daf46a70dc4aa3fd2346' -> (Import Result ID: '4b5b54fced12378d0a3ad7ad5beeeee8') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=927390dfc533d3b15948d8b30cc644b5 DependenciesID=70121df877319523e98537d8ce413a5f StaticDependenciesID=723b3b7270719299d708bfd9bdd1ecd4 
+Asset Pipeline Refresh (id=26ddf6dd37477ed468be024e86133997): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Starting new worker id: 1 with log in C:/Game Drive/Galaxy_Sprint_main/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: c3055324a727daf46a70dc4aa3fd2346 - Path: Assets/Art/Materials/Space_Stars.mat - Importer: PreviewImporter -> (ImportResultId: 'ec20846754fc4d33a1c03c0fda41bb15') in 0.1649448 seconds
+[Worker0] Imported GUID: c3055324a727daf46a70dc4aa3fd2346 - Path: Assets/Art/Materials/Space_Stars.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c9cf9b66b9947ee3ea3542f15ef92759') in 0.135479 seconds
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=69aaf8172510caa4fa0945bf68b68ee0): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Request Asset Garbage Collect because used heap size increased from 224.0 MB to 0.54 GB, exceeding the threshold of 256.0 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 216 unused Assets / (150.8 MB). Loaded Objects now: 2904.
+Memory consumption went from 0.54 GB to 398.8 MB.
+Total: 26.102900 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.103400 ms MarkObjects: 9.372200 ms  DeleteObjects: 16.448700 ms)
+
+Asset Pipeline Refresh (id=7151d861d1544ed4f8eafe6d0a197402): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e25c954c397cc084b9245598e1504ada): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a7ccd25d0f66576418d12d6d6290845a): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=f12d72f154b312f4f92b724659f63f46): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+-- Listing OpenCL platforms(s) --
+ * OpenCL platform 0
+	PROFILE = FULL_PROFILE
+	VERSION = OpenCL 3.0 
+	NAME = Intel(R) OpenCL Graphics
+	VENDOR = Intel(R) Corporation
+-- Listing OpenCL device(s) --
+ * OpenCL platform 0, device 0 
+	DEVICE_TYPE = 4
+	DEVICE_NAME = Intel(R) Iris(R) Xe Graphics
+	DEVICE_VENDOR = Intel(R) Corporation
+	DEVICE_VERSION = OpenCL 3.0 NEO 
+	DRIVER_VERSION = 32.0.101.6790
+	DEVICE_MAX_COMPUTE_UNITS = 80
+	DEVICE_MAX_CLOCK_FREQUENCY = 1250
+	CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE = 3730137088
+	CL_DEVICE_HOST_UNIFIED_MEMORY = true
+	CL_DEVICE_MAX_MEM_ALLOC_SIZE = 3730137088
+	DEVICE_GLOBAL_MEM_SIZE = 7460274176
+	Adjusted DEVICE_GLOBAL_MEM_SIZE due to Intel specific driver reservation, new value is 9564454071.
+Asset Pipeline Refresh (id=05beb56723c788049bea76cb0a9f108d): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: 0161d805a3764c089bef00bfe00793f5 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset - Importer: PreviewImporter -> (ImportResultId: '5345b632847912af5d3ff6f2c45bdc60') in 0.1062656 seconds
+[Worker0] Imported GUID: b246c4190f4e46ec9352fe15a7b09ce0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat - Importer: PreviewImporter -> (ImportResultId: '683d069e427d16206309a84aa41d1ba5') in 0.099062 seconds
+[Worker1] Imported GUID: 2ddca8f46aa0838419d568affb0ca6b4 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat - Importer: PreviewImporter -> (ImportResultId: '795e09bb31ce01ba3b717edaf426f8ea') in 0.1628029 seconds
+[Worker0] Imported GUID: e6b276ec991f467aa14ef1f3cc665993 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat - Importer: PreviewImporter -> (ImportResultId: 'aa3714ce86ee2dba9ff3c513990dc371') in 0.1751699 seconds
+[Worker0] Imported GUID: 90722b8bd74d9aa49958562aff7bdf76 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat - Importer: PreviewImporter -> (ImportResultId: 'ba46a20fe777bb35e0909a0dc4813515') in 0.0190831 seconds
+[Worker1] Imported GUID: 5302535af1044152a457ed104f1f4b91 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset - Importer: PreviewImporter -> (ImportResultId: 'd9767b5652c3792a1f9f04e002aa5598') in 0.0692102 seconds
+[Worker1] Imported GUID: 8d176c01131de8f46ad61094e29d79b2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat - Importer: PreviewImporter -> (ImportResultId: 'b29ac244d5dd3e25b664f1e39349bc05') in 0.0218412 seconds
+[Worker1] Imported GUID: c9adb1f542a93ae489bacfeae21e8394 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset - Importer: PreviewImporter -> (ImportResultId: 'cd66851a50efd9b4d64b91684491f03f') in 0.0449627 seconds
+[Worker1] Imported GUID: 967f61bb1e3e28645a39e0cb647cc79e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat - Importer: PreviewImporter -> (ImportResultId: '98469722f85661d0be965398984f9bf1') in 0.0215147 seconds
+[Worker0] Imported GUID: 22262639920f43d6be32430e4e58350d - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat - Importer: PreviewImporter -> (ImportResultId: '89cf51a2e94d551614588ea5f5866559') in 0.3249782 seconds
+Asset Pipeline Refresh (id=b2ad6312655cc3a4c878fe5a944513d6): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.219 seconds
+Domain Reload Profiling: 1743ms
+	BeginReloadAssembly (355ms)
+		DisableScriptedObjects (99ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (103ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (1220ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (586ms)
+
+Asset Pipeline Refresh (id=56351b5b4b18fc342be44b65b3fc7ee9): Total: 1.964 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1273 ms
+		Asset DB Callback time: managed=104 ms, native=36 ms
+		Scripting: domain reloads=1, domain reload time=546 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.538ms
+	ApplyChangesToAssetFolders: 0.198ms
+	Collect global state as custom dependencies: 0.644ms
+	ProcessAssetsWithTransientArtifactChanges: 12.916ms
+	CategorizeAssets: 3.581ms
+	CompileScripts: 1.633ms
+	ImportOutOfDateAssets: 1226.460ms (1221.731ms without children)
+		CollectScriptTypesHashes: 0.259ms
+		ReloadNativeAssets: 0.324ms
+		UnloadImportedAssets: 1.636ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.097ms
+		ImportSchedulerStart: 2.666ms
+	PostProcessAllAssets: 128.624ms
+		PostprocessAssetsUpdateCachedIcon 1.399ms
+		PostProcessCallbackCreateDeferredMaterials 0.999ms
+		ShaderAssetModifiedCallback 0.484ms
+		RaytracingShaderImportPostprocess 0.337ms
+		ComputeShaderImportPostprocess 0.285ms
+		SpeedTreeImporter.PostprocessAllAssets 0.247ms
+		AssemblyValidation.PostprocessAllAssets 0.230ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.142ms
+		BlockShaderImporter.PostprocessAllAssets 0.130ms
+		MonoPostProcessAllAssets: 102.171ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.080ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			SyncVS.PostprocessSyncProject 2.032ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.216ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.322ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.308ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.164ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.162ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.097ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+	PostAssetChangesProfiler: 12.830ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.104ms
+	UnloadStreamsBegin: 1.583ms
+	GenerateScriptTypeHashes: 0.950ms
+	GenerateScriptTypeSerializationHashes: 2.155ms
+	Untracked: 570.146ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.177 ms
+	Integration:            527.876 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   534.070 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.776 ms
+	Integration:            19.026 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   24.818 ms
+Unloading 360 unused Assets / (63.1 KB). Loaded Objects now: 2895.
+Memory consumption went from 425.1 MB to 425.0 MB.
+Total: 19.096900 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.178600 ms MarkObjects: 18.414700 ms  DeleteObjects: 0.251800 ms)
+
+Default GameObject Tag: Player already registered
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.709 seconds
+Domain Reload Profiling: 2401ms
+	BeginReloadAssembly (477ms)
+		DisableScriptedObjects (93ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (153ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (1710ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (782ms)
+
+Asset Pipeline Refresh (id=da6432ca1ff74c845b7a3f80e3320672): Total: 2.516 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1758 ms
+		Asset DB Callback time: managed=30 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=724 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.305ms
+	ApplyChangesToAssetFolders: 0.232ms
+	Collect global state as custom dependencies: 1.180ms
+	CategorizeAssets: 4.056ms
+	CompileScripts: 1.715ms
+	ImportOutOfDateAssets: 1714.014ms (1711.084ms without children)
+		ReloadNativeAssets: 0.317ms
+		UnloadImportedAssets: 0.253ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.106ms
+		ImportSchedulerStart: 2.247ms
+	PostProcessAllAssets: 30.589ms
+		MonoPostProcessAllAssets: 30.584ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 10.525ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			SyncVS.PostprocessSyncProject 2.389ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.118ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.399ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.381ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.224ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.214ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.108ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+	UnloadStreamsBegin: 0.082ms
+	GenerateScriptTypeHashes: 0.803ms
+	GenerateScriptTypeSerializationHashes: 1.871ms
+	Untracked: 754.776ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            8.095 ms
+	Integration:            55.773 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   63.893 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=a7ea1334024d7d44685574dc2dbbfe9c): Total: 0.021 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.082 ms
+	Integration:            18.257 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   24.383 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2916.
+Memory consumption went from 422.0 MB to 422.0 MB.
+Total: 20.447700 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.143100 ms MarkObjects: 19.958900 ms  DeleteObjects: 0.051600 ms)
+
+Default GameObject Tag: Player already registered
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=fc1cdc1858108df49997dd6eeb8a6052): Total: 0.020 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=14aceb959956c5b4195b64d3be304224): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b43c7cfe94c456f4292f963d9ad5c369): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.352 seconds
+Domain Reload Profiling: 1928ms
+	BeginReloadAssembly (386ms)
+		DisableScriptedObjects (77ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (113ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (1353ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (651ms)
+
+Asset Pipeline Refresh (id=26e497829dc7066459e07825ba444386): Total: 2.029 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1401 ms
+		Asset DB Callback time: managed=25 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=600 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.638ms
+	ApplyChangesToAssetFolders: 0.208ms
+	Collect global state as custom dependencies: 0.681ms
+	CategorizeAssets: 4.395ms
+	CompileScripts: 1.824ms
+	ImportOutOfDateAssets: 1357.836ms (1354.900ms without children)
+		ReloadNativeAssets: 0.332ms
+		UnloadImportedAssets: 0.199ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.107ms
+		ImportSchedulerStart: 2.295ms
+	PostProcessAllAssets: 25.310ms
+		MonoPostProcessAllAssets: 25.305ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 12.183ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			SyncVS.PostprocessSyncProject 2.435ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.086ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.376ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.326ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.216ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.200ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.095ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+	GenerateScriptTypeHashes: 0.819ms
+	GenerateScriptTypeSerializationHashes: 1.919ms
+	Untracked: 630.991ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            8.964 ms
+	Integration:            75.118 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   84.102 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=a301f7326f9318f47a8ba9c5b25a3595): Total: 0.014 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8492057aa25bdcd42959dc049343568a): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            9.748 ms
+	Integration:            18.444 ms
+	Integration of assets:  0.026 ms
+	Thread Wait Time:       0.069 ms
+	Total Operation Time:   28.286 ms
+Unloading 3 unused Assets / (4.1 KB). Loaded Objects now: 2932.
+Memory consumption went from 425.4 MB to 425.4 MB.
+Total: 18.315900 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.137600 ms MarkObjects: 17.876400 ms  DeleteObjects: 0.045300 ms)
+
+Default GameObject Tag: Player already registered
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=58a660bec93dc464cb04f0021daeb356): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=ae2fe16fdc1ab2d449a1414d22728af0): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=0774eef19f7d9044da8ee91f5311032f): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=7102afc48aeb38642bf8beb904ceb9ad): Total: 0.047 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.412 seconds
+Domain Reload Profiling: 3620ms
+	BeginReloadAssembly (663ms)
+		DisableScriptedObjects (173ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (104ms)
+	initialDomainReloadingComplete (201ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (348ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (2413ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (978ms)
+
+Asset Pipeline Refresh (id=f327f2317b9a2604ea9685cf467e137f): Total: 13.850 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2601 ms
+		Asset DB Callback time: managed=68 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=11176 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.901ms
+	ApplyChangesToAssetFolders: 0.231ms
+	Collect global state as custom dependencies: 0.841ms
+	CategorizeAssets: 4.155ms
+	CompileScripts: 2.066ms
+	ImportOutOfDateAssets: 2420.020ms (2416.052ms without children)
+		ReloadNativeAssets: 0.328ms
+		UnloadImportedAssets: 0.209ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.155ms
+		ImportSchedulerStart: 3.270ms
+	PostProcessAllAssets: 68.769ms
+		MonoPostProcessAllAssets: 68.763ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			SyncVS.PostprocessSyncProject 43.051ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 13.715ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.245ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.454ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.446ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.320ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.268ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.117ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+	GenerateScriptTypeHashes: 0.856ms
+	GenerateScriptTypeSerializationHashes: 2.026ms
+	Untracked: 11345.934ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.185 ms
+	Integration:            622.148 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   628.372 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=6011c227c5d118049a0756bcdf5f9216): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=88c0458e6b1f3af459b0ff9adca256c0): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=105ecb9a6ec7e01418f7343dd26cda50): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.008 ms
+	Integration:            11.111 ms
+	Integration of assets:  0.017 ms
+	Thread Wait Time:       0.038 ms
+	Total Operation Time:   15.175 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2946.
+Memory consumption went from 431.6 MB to 431.6 MB.
+Total: 14.126100 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.108200 ms MarkObjects: 13.770400 ms  DeleteObjects: 0.048800 ms)
+
+Default GameObject Tag: Player already registered
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=9df6db52b7b45e945a2b7a3dab0d79f4): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 2.400ms
+Scanning for USB devices : 1.689ms
+Scanning for USB devices : 2.006ms
+Asset Pipeline Refresh (id=bf543ee9fdb50014582b3ced06925275): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Scanning for USB devices : 1.736ms
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.113 seconds
+Domain Reload Profiling: 1602ms
+	BeginReloadAssembly (324ms)
+		DisableScriptedObjects (71ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (99ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (1114ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (535ms)
+
+Asset Pipeline Refresh (id=372476e580eb35a41a4051861a9c7b4a): Total: 1.681 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1148 ms
+		Asset DB Callback time: managed=17 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=512 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.370ms
+	ApplyChangesToAssetFolders: 0.199ms
+	Collect global state as custom dependencies: 0.720ms
+	CategorizeAssets: 3.370ms
+	CompileScripts: 1.761ms
+	ImportOutOfDateAssets: 1117.354ms (1114.917ms without children)
+		ReloadNativeAssets: 0.260ms
+		UnloadImportedAssets: 0.151ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.083ms
+		ImportSchedulerStart: 1.941ms
+	PostProcessAllAssets: 17.370ms
+		MonoPostProcessAllAssets: 17.366ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 7.098ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			SyncVS.PostprocessSyncProject 1.743ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.753ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.276ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.268ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.163ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.141ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.070ms
+	GenerateScriptTypeHashes: 0.675ms
+	GenerateScriptTypeSerializationHashes: 1.681ms
+	Untracked: 534.352ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.277 ms
+	Integration:            534.469 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   539.759 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.874 ms
+	Integration:            11.173 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   15.087 ms
+Unloading 3 unused Assets / (1.9 KB). Loaded Objects now: 2965.
+Memory consumption went from 437.9 MB to 437.9 MB.
+Total: 13.758400 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.091300 ms MarkObjects: 13.417200 ms  DeleteObjects: 0.039000 ms)
+
+Default GameObject Tag: Player already registered
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=2830eaaeda6c35148be7340e5d0da3a1): Total: 0.022 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.178 seconds
+Domain Reload Profiling: 1722ms
+	BeginReloadAssembly (341ms)
+		DisableScriptedObjects (76ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (107ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+	FinalizeReload (1179ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (562ms)
+
+Asset Pipeline Refresh (id=6fc43c0b2fb822d489c4d9158bff33d0): Total: 1.903 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1219 ms
+		Asset DB Callback time: managed=66 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=615 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.450ms
+	ApplyChangesToAssetFolders: 0.205ms
+	Collect global state as custom dependencies: 0.628ms
+	CategorizeAssets: 3.506ms
+	CompileScripts: 1.747ms
+	ImportOutOfDateAssets: 1184.448ms (1181.280ms without children)
+		ReloadNativeAssets: 0.295ms
+		UnloadImportedAssets: 0.202ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.093ms
+		ImportSchedulerStart: 2.573ms
+	PostProcessAllAssets: 66.260ms
+		MonoPostProcessAllAssets: 66.254ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			SyncVS.PostprocessSyncProject 43.884ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.178ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.798ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.458ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.278ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.159ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.153ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.082ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+	GenerateScriptTypeHashes: 0.730ms
+	GenerateScriptTypeSerializationHashes: 1.745ms
+	Untracked: 639.382ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.190 ms
+	Integration:            524.476 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   530.702 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.423 ms
+	Integration:            12.008 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.038 ms
+	Total Operation Time:   16.475 ms
+Unloading 3 unused Assets / (2.2 KB). Loaded Objects now: 2979.
+Memory consumption went from 444.6 MB to 444.6 MB.
+Total: 12.878100 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.096300 ms MarkObjects: 12.501600 ms  DeleteObjects: 0.034500 ms)
+
+Default GameObject Tag: Player already registered
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.939 seconds
+Domain Reload Profiling: 2802ms
+	BeginReloadAssembly (580ms)
+		DisableScriptedObjects (130ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (188ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+	FinalizeReload (1940ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (863ms)
+
+Asset Pipeline Refresh (id=5d0e45df47c3662438152fcbb398450c): Total: 2.938 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1999 ms
+		Asset DB Callback time: managed=32 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=902 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=251, non-scripts=418
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.023ms
+	ApplyChangesToAssetFolders: 0.275ms
+	Collect global state as custom dependencies: 1.408ms
+	CategorizeAssets: 4.540ms
+	CompileScripts: 1.976ms
+	ImportOutOfDateAssets: 1945.710ms (1942.570ms without children)
+		ReloadNativeAssets: 0.336ms
+		UnloadImportedAssets: 0.312ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.125ms
+		ImportSchedulerStart: 2.361ms
+	PostProcessAllAssets: 32.968ms
+		MonoPostProcessAllAssets: 32.961ms
+			AssetPostprocessor.OnPostprocessAllAssets 62.775ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 15.251ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.909ms
+			SyncVS.PostprocessSyncProject 3.144ms
+			AssetChangedListener.OnPostprocessAllAssets 2.859ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.602ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.326ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.582ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.531ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.510ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.318ms
+			AssetEvents.OnPostprocessAllAssets 0.305ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.285ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.255ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.253ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.251ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.168ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.138ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.124ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.120ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.078ms
+	UnloadStreamsBegin: 0.101ms
+	GenerateScriptTypeHashes: 0.870ms
+	GenerateScriptTypeSerializationHashes: 2.056ms
+	Untracked: 941.029ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.208 ms
+	Integration:            59.298 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   65.538 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=795f88b7c14eced4596ece5447cf9631): Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.735 ms
+	Integration:            11.363 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.056 ms
+	Total Operation Time:   15.157 ms
+Unloading 3 unused Assets / (1.6 KB). Loaded Objects now: 2995.
+Memory consumption went from 451.2 MB to 451.2 MB.
+Total: 15.249500 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.118000 ms MarkObjects: 14.873200 ms  DeleteObjects: 0.036300 ms)
+
+Default GameObject Tag: Player already registered
+Asset Pipeline Refresh (id=540aec649cb68344e80b7cf2555f7c71): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: c3055324a727daf46a70dc4aa3fd2346 - Path: Assets/Art/Materials/Space_Stars.mat' with importer (NativeFormatImporter)
+Imported 'GUID: c3055324a727daf46a70dc4aa3fd2346' -> (Import Result ID: 'd14dab85e422673a144096434b18ffae') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=927390dfc533d3b15948d8b30cc644b5 DependenciesID=b3c382551ab863a6bdbfd54ac24e62d8 StaticDependenciesID=5532ce2faa29b3c6eccf3f21b1aa8405 
+Asset Pipeline Refresh (id=3d240e7e7f23f824b86b844b6d5d7105): Total: 0.064 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c6d14d9ab3514d24aac655ee3f51dfbe - Path: Assets/Scenes/MainScene.unity' with importer (DefaultImporter)
+Imported 'GUID: c6d14d9ab3514d24aac655ee3f51dfbe' -> (Import Result ID: 'f0e70e51f7e2f4623beb7510530a014c') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=dc4dc1385335834482d9eed2d66359f0 DependenciesID=bcb86557598b49c40ff40289472766a1 StaticDependenciesID=87ddcd9305b0b6846609feb07551f74c 
+Asset Pipeline Refresh (id=1f54be55e1a4c7a43b7b124da597d736): Total: 0.022 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 8709; Successful remaps: 1188
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Game Drive\Galaxy_Sprint_main\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/rishi/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-rishi-6000.5.9-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-rishi-6000.5.9 channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 3540
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793888872955,"processId":22016,"allocatedMemory":45514374,"memoryLabels":[{"Default":242665},{"Permanent":15516},{"NewDelete":78721},{"Thread":4197560},{"Manager":34949},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":846892},{"Material":24},{"GfxDevice":55328},{"Animation":107960},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":5272},{"Input":42840},{"JobScheduler":256},{"TextLib":19030},{"Mono":48},{"ScriptingNativeRuntime":697196},{"BaseObject":1638488},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":12940},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":10648},{"StaticString":3808},{"Utility":2673461},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":8216},{"WebRequest":4815},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33071152},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":267312},{"CoreStats":13688},{"Identifiers":6768},{"Gui":525},{"EditorUtility":255887},{"VersionControl":8},{"Undo":931},{"AssetDatabase":823180},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35385},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
